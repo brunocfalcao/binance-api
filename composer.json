@@ -1,0 +1,30 @@
+{
+    "name": "brunocfalcao/binance-api",
+    "description": "Binance API tweaked for futures",
+    "keywords": [
+        "brunocfalcao"
+    ],
+    "homepage": "https://github.com/brunocfalcao/binance-api",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bruno Falcão",
+            "email": "bruno.c.falcao@brunofalcao.me",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Binance": "/",
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+}
